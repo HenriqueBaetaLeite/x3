@@ -35,10 +35,9 @@ export default function Home() {
           <p>📍 Rua Campina Verde, 366 – Salgado Filho, BH/MG</p>
 
           <p>
-            O formato será definido conforme o número de equipes inscritas. As
-            vagas são{" "}
+            As vagas são{" "}
             <span className="text-yellow-400 font-semibold">
-              limitadas a 16 equipes
+              limitadas a 10 equipes
             </span>
             . Inscreva-se já!
           </p>
