@@ -59,42 +59,15 @@ export default function Home() {
       </main>
 
       <footer className="w-full max-w-3xl flex-wrap flex justify-center gap-6 border-t border-gray-700 pt-6">
+       
         <a
           className="flex items-center gap-2 text-gray-400 hover:text-white transition"
-          href="https://nextjs.org/learn"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/file.svg"
-            alt="Ícone de arquivo"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 text-gray-400 hover:text-white transition"
-          href="https://vercel.com/templates?framework=next.js"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/window.svg"
-            alt="Ícone de janela"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 text-gray-400 hover:text-white transition"
-          href="https://nextjs.org"
+          href="https://www.linkedin.com/in/henriquebaetaleite/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image src="/globe.svg" alt="Ícone de globo" width={16} height={16} />
-          Next.js
+          Henrique Baêta - 2025
         </a>
       </footer>
     </div>
