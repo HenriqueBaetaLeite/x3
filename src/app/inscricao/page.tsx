@@ -10,8 +10,9 @@ export default function Inscricao() {
       </h2>
 
       <p className="text-gray-300 text-lg mb-6">
-          A inscrição custa apenas R$15,00 por equipe e deve ser paga no dia do torneio.
-        </p>
+        A inscrição custa apenas R$15,00 por equipe e deve ser paga no dia do
+        torneio.
+      </p>
 
       <p className="text-gray-300 mb-6">
         <span className="text-yellow-400 font-semibold">ATENÇÃO:</span> Apenas
@@ -27,7 +28,7 @@ export default function Inscricao() {
         Certifique-se de ler as{" "}
         <span className="text-blue-400 font-semibold">
           <Link href="/regras" className="underline">
-          regras do torneio
+            regras do torneio
           </Link>
         </span>{" "}
         para entender como funciona.

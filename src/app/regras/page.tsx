@@ -96,7 +96,10 @@ export default function Regras() {
               do torneio de forma automática.
             </li>
 
-            <li>A equipe poderá inscrever um substituto, até 5 minutos antes do início do seu próximo jogo.</li>
+            <li>
+              A equipe poderá inscrever um substituto, até 5 minutos antes do
+              início do seu próximo jogo.
+            </li>
 
             <li>Esperamos que esta regra não seja necessária.</li>
             <li>Prezamos por um futebol arte com qualidade!</li>
@@ -104,8 +107,9 @@ export default function Regras() {
         </li>
 
         <li>
-          <span className="font-semibold text-blue-400">Sistema X1.</span>{" "}
-          Cada equipe tem direito a acionar 1 vez o x1, em qualquer momento do jogo, que consiste em:
+          <span className="font-semibold text-blue-400">Sistema X1.</span> Cada
+          equipe tem direito a acionar 1 vez o x1, em qualquer momento do jogo,
+          que consiste em:
           <ul className="list-disc pl-6 mt-2 space-y-1 text-gray-300">
             <li>
               Duelo de 1 jogador contra 1 adversário (a escolha de cada equipe).
