@@ -22,10 +22,11 @@ export default function Home() {
 
         <div className="text-gray-300 text-lg space-y-4">
           <p>
-            Venha participar de uma competição cheia de{" "}
-            <span className="text-blue-400 font-semibold">emoção</span> e{" "}
-            <span className="text-blue-400 font-semibold">criatividade</span>!
-            Inscreva sua equipe e conheça as regras inovadoras.
+            Inscreva sua equipe e venha participar de uma competição cheia de{" "}
+            <span className="text-blue-400 font-semibold">emoção</span> ,{" "}
+            <span className="text-blue-400 font-semibold">
+              criatividade e muitos dribles!
+            </span>
           </p>
 
           <p>
