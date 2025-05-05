@@ -11,7 +11,7 @@ export default function Home() {
       <main className="max-w-3xl w-full flex flex-col items-center text-center gap-10">
         <motion.div
           animate={{ y: [0, -8, 0] }}
-          transition={{ duration: 2, ease: "easeInOut" }}
+          transition={{ duration: 2, repeat: 2, ease: "easeInOut" }}
         >
           <Image
             src="/logo.png"
