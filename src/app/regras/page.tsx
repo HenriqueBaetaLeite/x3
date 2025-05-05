@@ -1,4 +1,5 @@
 import FloatingButton from "@/app/components/floatingButton";
+import Link from "next/link";
 
 export default function Regras() {
   return (
@@ -12,7 +13,7 @@ export default function Regras() {
         As regras serão as mesmas do futsal exceto as citadas abaixo, que
         complementam, adicionam ou substituem as regras originais.
       </p>
-      <ol className="list-decimal pl-6 space-y-4 text-white">
+      <ol className="list-decimal pl-6 space-y-4 text-white mb-5">
         <li>
           Serão <span className="font-semibold text-blue-400">3 jogadores</span>{" "}
           em cada equipe.
@@ -61,7 +62,7 @@ export default function Regras() {
               <span className="font-semibold text-blue-400">
                 tiro livre direto sem barreira e sem goleiro
               </span>
-              , da marca do centro da quadra.
+              , da marca do pênalti da própria quadra.
             </li>
             <li>
               Basta o atacante que recebeu a falta fazer o gol,{" "}
@@ -130,6 +131,20 @@ export default function Regras() {
           ocorrido.
         </li>
       </ol>
+
+      <p className="text-gray-300 mb-4">
+        As regras foram adaptadas para garantir um torneio divertido e
+        competitivo. Esperamos que todos se divirtam e joguem com respeito!
+        <br />
+        Caso tenha alguma dúvida, entre em contato com a organização.
+      </p>
+
+      <Link
+        href="/inscricao"
+        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition-all duration-300 text-lg"
+      >
+        📝 Inscreva sua equipe
+      </Link>
     </div>
   );
 }
