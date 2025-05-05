@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Countdown from "@/app/components/countdown";
 import Image from "next/image";
 import Link from "next/link";
+import { CalendarCheck, MapPin, Trophy, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -35,18 +36,25 @@ export default function Home() {
             </span>
           </p>
 
-          <p>
-            🏆 Premiação para os vencedores e sorteio de brindes exclusivos!
+          <p className="flex items-center justify-center gap-2">
+            <Trophy size={20} className="text-yellow-500" />
+            Premiação para os vencedores e sorteio de brindes exclusivos!
           </p>
-          <p>📅 Dia 17 de maio, às 9h, na quadra do América Suburbano.</p>
-          <p>📍 Rua Campina Verde, 366 – Salgado Filho, BH/MG</p>
 
-          <p>
-            As vagas são{" "}
-            <span className="text-yellow-400 font-semibold">
-              limitadas a 10 equipes
-            </span>
-            . Inscreva-se já!
+          <p className="flex items-center justify-center gap-2">
+            <CalendarCheck size={20} className="text-green-400" />
+            Dia 17 de maio, às 9h, na quadra do América Suburbano.
+          </p>
+
+          <p className="flex items-center justify-center gap-2">
+            <MapPin size={20} className="text-red-400" />
+            Rua Campina Verde, 366 – Salgado Filho, BH/MG
+          </p>
+
+          <p className="flex items-center justify-center gap-2">
+            <Users size={20} className="text-yellow-400" />
+            Vagas limitadas a{" "}
+            <span className="text-yellow-400 font-semibold">10 equipes</span>!
           </p>
         </div>
 
