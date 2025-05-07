@@ -9,6 +9,18 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white p-6 sm:p-20 font-[family-name:var(--font-geist-sans)] flex flex-col items-center justify-between gap-16">
       <main className="max-w-3xl w-full flex flex-col items-center text-center gap-10">
+        <Image
+          src="/bola.png"
+          alt="Logo do Campeonato"
+          width={300}
+          height={500}
+          priority
+        />
+
+        <h1 className="text-4xl font-bold text-yellow-400 drop-shadow-lg">
+          Campeonato Futsal 3x3!
+        </h1>
+
         <motion.div
           animate={{ y: [0, -8, 0] }}
           transition={{ duration: 2, repeat: 2, ease: "easeInOut" }}
@@ -22,10 +34,6 @@ export default function Home() {
             className="rounded-xl shadow-lg shadow-gray-800/50"
           />
         </motion.div>
-
-        <h1 className="text-4xl font-bold text-yellow-400 drop-shadow-lg">
-          Campeonato Futsal 3x3!
-        </h1>
 
         <div className="text-gray-300 text-lg space-y-4">
           <p>
@@ -81,23 +89,9 @@ export default function Home() {
             📝 Inscreva sua equipe
           </Link>
         </div>
-        {/* <motion.div
-          animate={{ y: [0, -8, 0] }}
-          transition={{ duration: 2, repeat: 2, ease: "easeInOut" }}
-        >
-          <Image
-            src="/bom_na_bola.png"
-            alt="Logo do Campeonato"
-            width={300}
-            height={500}
-            priority
-            className="rounded-xl shadow-lg shadow-gray-800/50"
-          />
-        </motion.div> */}
       </main>
 
       <footer className="w-full max-w-3xl items-center flex flex-col justify-center border-t border-gray-700 pt-6">
-      
         <a
           className="flex items-center gap-2 text-gray-400 hover:text-white transition"
           href="https://www.linkedin.com/in/henriquebaetaleite/"
