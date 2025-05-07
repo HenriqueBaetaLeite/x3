@@ -81,9 +81,23 @@ export default function Home() {
             📝 Inscreva sua equipe
           </Link>
         </div>
+        {/* <motion.div
+          animate={{ y: [0, -8, 0] }}
+          transition={{ duration: 2, repeat: 2, ease: "easeInOut" }}
+        >
+          <Image
+            src="/bom_na_bola.png"
+            alt="Logo do Campeonato"
+            width={300}
+            height={500}
+            priority
+            className="rounded-xl shadow-lg shadow-gray-800/50"
+          />
+        </motion.div> */}
       </main>
 
-      <footer className="w-full max-w-3xl flex justify-center border-t border-gray-700 pt-6">
+      <footer className="w-full max-w-3xl items-center flex flex-col justify-center border-t border-gray-700 pt-6">
+      
         <a
           className="flex items-center gap-2 text-gray-400 hover:text-white transition"
           href="https://www.linkedin.com/in/henriquebaetaleite/"

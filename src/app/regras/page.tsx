@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Regras() {
   return (
+    <div className="min-h-screen bg-black text-white p-6 sm:p-20 font-[family-name:var(--font-geist-sans)] flex flex-col items-center justify-between gap-16">
     <div className="max-w-3xl mx-auto my-8 p-6 bg-black rounded-lg shadow-lg shadow-gray-800/50">
       <FloatingButton />
       <h2 className="text-2xl font-bold text-white pb-3 mb-4 border-b-2 border-blue-500">
@@ -145,6 +146,7 @@ export default function Regras() {
       >
         📝 Inscreva sua equipe
       </Link>
+    </div>
     </div>
   );
 }

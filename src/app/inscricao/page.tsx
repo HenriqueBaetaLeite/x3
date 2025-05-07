@@ -6,6 +6,7 @@ import { FileText, AlertCircle, ExternalLink } from "lucide-react";
 
 export default function Inscricao() {
   return (
+    <div className="min-h-screen bg-black text-white p-6 sm:p-20 font-[family-name:var(--font-geist-sans)] flex flex-col items-center justify-between gap-16">
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
@@ -68,5 +69,6 @@ export default function Inscricao() {
         Acessar Formulário de Inscrição
       </motion.a>
     </motion.div>
+    </div>
   );
 }
